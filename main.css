@@ -1,0 +1,49 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+p {
+    word-spacing: 5px;
+    font-size: 24px;
+    align-items: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+ul {
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+#box-container {
+    display: flex;
+    height: 400px;
+    width: 900px;
+    margin: auto;
+}
+
+#box-1 {
+    flex-basis: auto;
+}
+
+#box-2 {
+    flex-basis: auto;
+}
+
+#box-3 {
+    width: 50%;
+    height: 25%;
+    border-style: dashed;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+<div id="box-container"><div id="box-1"></div><div id="box-2"></div></div>
